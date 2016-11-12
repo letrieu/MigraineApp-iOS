@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45178B3D1DCD116B00B21112 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45178B3C1DCD116B00B21112 /* LoginViewController.swift */; };
+		45178B3F1DCD118F00B21112 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45178B3E1DCD118F00B21112 /* MainViewController.swift */; };
+		453C322F1DC7A32D009F85C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C322E1DC7A32D009F85C4 /* AppDelegate.swift */; };
+		453C32311DC7A32D009F85C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C32301DC7A32D009F85C4 /* ViewController.swift */; };
+		453C32341DC7A32D009F85C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453C32321DC7A32D009F85C4 /* Main.storyboard */; };
+		453C32361DC7A32D009F85C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 453C32351DC7A32D009F85C4 /* Assets.xcassets */; };
+		453C32391DC7A32D009F85C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453C32371DC7A32D009F85C4 /* LaunchScreen.storyboard */; };
+		453C32431DC7A676009F85C4 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C32421DC7A676009F85C4 /* WalkthroughViewController.swift */; };
+		453C32451DC7A6D0009F85C4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453C32441DC7A6D0009F85C4 /* PageViewController.swift */; };
+		456B7DC41DD09EF700440F77 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DC31DD09EF700440F77 /* MeViewController.swift */; };
+		456B7DC61DD09F0200440F77 /* ReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DC51DD09F0200440F77 /* ReportViewController.swift */; };
+		456B7DC81DD09F0E00440F77 /* BuddyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DC71DD09F0E00440F77 /* BuddyViewController.swift */; };
+		456B7DCA1DD0A48F00440F77 /* DailyTrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DC91DD0A48F00440F77 /* DailyTrackerViewController.swift */; };
+		456B7DCD1DD0A60E00440F77 /* IconCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DCC1DD0A60E00440F77 /* IconCollectionCell.swift */; };
+		456B7DCF1DD0A72600440F77 /* DefineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DCE1DD0A72600440F77 /* DefineApp.swift */; };
+		456B7DD11DD0B80900440F77 /* NotiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DD01DD0B80900440F77 /* NotiCell.swift */; };
+		456B7DD31DD0BA8800440F77 /* NotiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DD21DD0BA8800440F77 /* NotiViewController.swift */; };
+		456B7DD51DD0D33200440F77 /* MigraineRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DD41DD0D33200440F77 /* MigraineRecordViewController.swift */; };
+		456B7DD71DD0D34500440F77 /* SleepRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DD61DD0D34500440F77 /* SleepRecordViewController.swift */; };
+		456B7DD91DD0D8FA00440F77 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DD81DD0D8FA00440F77 /* RecordViewController.swift */; };
+		456B7DDB1DD0DF6500440F77 /* MigraineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DDA1DD0DF6500440F77 /* MigraineCell.swift */; };
+		456B7DDD1DD0E2BA00440F77 /* SleepCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456B7DDC1DD0E2BA00440F77 /* SleepCell.swift */; };
+		4579230F1DD3A8A4008376D9 /* TimeChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4579230E1DD3A8A4008376D9 /* TimeChoiceViewController.swift */; };
+		457923111DD3ACC2008376D9 /* BadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457923101DD3ACC2008376D9 /* BadViewController.swift */; };
+		457923131DD3BB3A008376D9 /* SymptomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457923121DD3BB3A008376D9 /* SymptomViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45178B3C1DCD116B00B21112 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		45178B3E1DCD118F00B21112 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		453C322B1DC7A32D009F85C4 /* MigraineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MigraineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		453C322E1DC7A32D009F85C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		453C32301DC7A32D009F85C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		453C32331DC7A32D009F85C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		453C32351DC7A32D009F85C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		453C32381DC7A32D009F85C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		453C323A1DC7A32D009F85C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453C32421DC7A676009F85C4 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		453C32441DC7A6D0009F85C4 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		456B7DC31DD09EF700440F77 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		456B7DC51DD09F0200440F77 /* ReportViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportViewController.swift; sourceTree = "<group>"; };
+		456B7DC71DD09F0E00440F77 /* BuddyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuddyViewController.swift; sourceTree = "<group>"; };
+		456B7DC91DD0A48F00440F77 /* DailyTrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyTrackerViewController.swift; sourceTree = "<group>"; };
+		456B7DCC1DD0A60E00440F77 /* IconCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IconCollectionCell.swift; sourceTree = "<group>"; };
+		456B7DCE1DD0A72600440F77 /* DefineApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefineApp.swift; sourceTree = "<group>"; };
+		456B7DD01DD0B80900440F77 /* NotiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotiCell.swift; sourceTree = "<group>"; };
+		456B7DD21DD0BA8800440F77 /* NotiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotiViewController.swift; sourceTree = "<group>"; };
+		456B7DD41DD0D33200440F77 /* MigraineRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigraineRecordViewController.swift; sourceTree = "<group>"; };
+		456B7DD61DD0D34500440F77 /* SleepRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepRecordViewController.swift; sourceTree = "<group>"; };
+		456B7DD81DD0D8FA00440F77 /* RecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		456B7DDA1DD0DF6500440F77 /* MigraineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MigraineCell.swift; sourceTree = "<group>"; };
+		456B7DDC1DD0E2BA00440F77 /* SleepCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SleepCell.swift; sourceTree = "<group>"; };
+		4579230E1DD3A8A4008376D9 /* TimeChoiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeChoiceViewController.swift; sourceTree = "<group>"; };
+		457923101DD3ACC2008376D9 /* BadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadViewController.swift; sourceTree = "<group>"; };
+		457923121DD3BB3A008376D9 /* SymptomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SymptomViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		453C32281DC7A32D009F85C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		453C32221DC7A32D009F85C4 = {
+			isa = PBXGroup;
+			children = (
+				453C322D1DC7A32D009F85C4 /* MigraineApp */,
+				453C322C1DC7A32D009F85C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		453C322C1DC7A32D009F85C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				453C322B1DC7A32D009F85C4 /* MigraineApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		453C322D1DC7A32D009F85C4 /* MigraineApp */ = {
+			isa = PBXGroup;
+			children = (
+				453C32401DC7A63A009F85C4 /* ViewController */,
+				453C322E1DC7A32D009F85C4 /* AppDelegate.swift */,
+				453C32301DC7A32D009F85C4 /* ViewController.swift */,
+				453C32321DC7A32D009F85C4 /* Main.storyboard */,
+				453C32351DC7A32D009F85C4 /* Assets.xcassets */,
+				453C32371DC7A32D009F85C4 /* LaunchScreen.storyboard */,
+				453C323A1DC7A32D009F85C4 /* Info.plist */,
+				456B7DCE1DD0A72600440F77 /* DefineApp.swift */,
+			);
+			path = MigraineApp;
+			sourceTree = "<group>";
+		};
+		453C32401DC7A63A009F85C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				456B7DCB1DD0A5C000440F77 /* Cell */,
+				453C32421DC7A676009F85C4 /* WalkthroughViewController.swift */,
+				453C32441DC7A6D0009F85C4 /* PageViewController.swift */,
+				45178B3C1DCD116B00B21112 /* LoginViewController.swift */,
+				45178B3E1DCD118F00B21112 /* MainViewController.swift */,
+				456B7DC31DD09EF700440F77 /* MeViewController.swift */,
+				456B7DC51DD09F0200440F77 /* ReportViewController.swift */,
+				456B7DC71DD09F0E00440F77 /* BuddyViewController.swift */,
+				456B7DC91DD0A48F00440F77 /* DailyTrackerViewController.swift */,
+				456B7DD21DD0BA8800440F77 /* NotiViewController.swift */,
+				456B7DD41DD0D33200440F77 /* MigraineRecordViewController.swift */,
+				456B7DD61DD0D34500440F77 /* SleepRecordViewController.swift */,
+				456B7DD81DD0D8FA00440F77 /* RecordViewController.swift */,
+				4579230E1DD3A8A4008376D9 /* TimeChoiceViewController.swift */,
+				457923101DD3ACC2008376D9 /* BadViewController.swift */,
+				457923121DD3BB3A008376D9 /* SymptomViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		456B7DCB1DD0A5C000440F77 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				456B7DD01DD0B80900440F77 /* NotiCell.swift */,
+				456B7DCC1DD0A60E00440F77 /* IconCollectionCell.swift */,
+				456B7DDA1DD0DF6500440F77 /* MigraineCell.swift */,
+				456B7DDC1DD0E2BA00440F77 /* SleepCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		453C322A1DC7A32D009F85C4 /* MigraineApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 453C323D1DC7A32D009F85C4 /* Build configuration list for PBXNativeTarget "MigraineApp" */;
+			buildPhases = (
+				453C32271DC7A32D009F85C4 /* Sources */,
+				453C32281DC7A32D009F85C4 /* Frameworks */,
+				453C32291DC7A32D009F85C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MigraineApp;
+			productName = MigraineApp;
+			productReference = 453C322B1DC7A32D009F85C4 /* MigraineApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		453C32231DC7A32D009F85C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Trieu Le";
+				TargetAttributes = {
+					453C322A1DC7A32D009F85C4 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 453C32261DC7A32D009F85C4 /* Build configuration list for PBXProject "MigraineApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 453C32221DC7A32D009F85C4;
+			productRefGroup = 453C322C1DC7A32D009F85C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				453C322A1DC7A32D009F85C4 /* MigraineApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		453C32291DC7A32D009F85C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				453C32391DC7A32D009F85C4 /* LaunchScreen.storyboard in Resources */,
+				453C32361DC7A32D009F85C4 /* Assets.xcassets in Resources */,
+				453C32341DC7A32D009F85C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		453C32271DC7A32D009F85C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				456B7DCA1DD0A48F00440F77 /* DailyTrackerViewController.swift in Sources */,
+				457923111DD3ACC2008376D9 /* BadViewController.swift in Sources */,
+				456B7DD71DD0D34500440F77 /* SleepRecordViewController.swift in Sources */,
+				456B7DCD1DD0A60E00440F77 /* IconCollectionCell.swift in Sources */,
+				456B7DCF1DD0A72600440F77 /* DefineApp.swift in Sources */,
+				456B7DC61DD09F0200440F77 /* ReportViewController.swift in Sources */,
+				457923131DD3BB3A008376D9 /* SymptomViewController.swift in Sources */,
+				456B7DD11DD0B80900440F77 /* NotiCell.swift in Sources */,
+				4579230F1DD3A8A4008376D9 /* TimeChoiceViewController.swift in Sources */,
+				453C32431DC7A676009F85C4 /* WalkthroughViewController.swift in Sources */,
+				456B7DC41DD09EF700440F77 /* MeViewController.swift in Sources */,
+				453C32311DC7A32D009F85C4 /* ViewController.swift in Sources */,
+				456B7DD91DD0D8FA00440F77 /* RecordViewController.swift in Sources */,
+				453C322F1DC7A32D009F85C4 /* AppDelegate.swift in Sources */,
+				456B7DDB1DD0DF6500440F77 /* MigraineCell.swift in Sources */,
+				45178B3F1DCD118F00B21112 /* MainViewController.swift in Sources */,
+				456B7DD31DD0BA8800440F77 /* NotiViewController.swift in Sources */,
+				456B7DC81DD09F0E00440F77 /* BuddyViewController.swift in Sources */,
+				456B7DDD1DD0E2BA00440F77 /* SleepCell.swift in Sources */,
+				45178B3D1DCD116B00B21112 /* LoginViewController.swift in Sources */,
+				456B7DD51DD0D33200440F77 /* MigraineRecordViewController.swift in Sources */,
+				453C32451DC7A6D0009F85C4 /* PageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		453C32321DC7A32D009F85C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453C32331DC7A32D009F85C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		453C32371DC7A32D009F85C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				453C32381DC7A32D009F85C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		453C323B1DC7A32D009F85C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		453C323C1DC7A32D009F85C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		453C323E1DC7A32D009F85C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MigraineApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trieu.MigraineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		453C323F1DC7A32D009F85C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MigraineApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = trieu.MigraineApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		453C32261DC7A32D009F85C4 /* Build configuration list for PBXProject "MigraineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453C323B1DC7A32D009F85C4 /* Debug */,
+				453C323C1DC7A32D009F85C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		453C323D1DC7A32D009F85C4 /* Build configuration list for PBXNativeTarget "MigraineApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				453C323E1DC7A32D009F85C4 /* Debug */,
+				453C323F1DC7A32D009F85C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 453C32231DC7A32D009F85C4 /* Project object */;
+}
